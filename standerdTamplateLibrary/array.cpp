@@ -10,7 +10,13 @@ int main(){
 
     for (int i = 0; i < size; i++)
     {
-        cout<<a[i]<<endl;
+        cout<<a[i]<<" ";
     }
+    cout<<endl;
     
+    cout<<"Element at 2nd index -->"<<a.at(2)<<endl;
+    cout<<"isEmpty -->"<<a.empty()<<endl;
+
+    cout<<"Front element -->"<<a.front()<<endl;
+    cout<<"Last elment -->"<<a.back()<<endl;
 }

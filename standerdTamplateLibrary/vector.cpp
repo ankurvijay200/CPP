@@ -54,5 +54,4 @@ int main(){
     cout<<"After clear Size -->"<<v.size()<<endl;
     cout<<"After clear Capacity -->"<<v.capacity()<<endl;
     cout<<endl;
-
 }

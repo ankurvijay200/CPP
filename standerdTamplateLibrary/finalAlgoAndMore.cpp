@@ -13,6 +13,9 @@ int main(){
 
     cout<<"5 is present or not : "<<binary_search(v.begin(), v.end(), 5)<<endl;
     
+    cout<<"Lower bound : "<<lower_bound(v.begin(), v.end(), 5)-v.begin()<<endl; //print iterator of searching index
+    cout<<"Upper bound : "<<upper_bound(v.begin(), v.end(), 5)-v.begin()<<endl; //print next iterator of searching index
+    
     vector<int> n;
     n.push_back(1);
     n.push_back(5);
@@ -21,7 +24,7 @@ int main(){
     n.push_back(4);
 
     sort(n.begin(), n.end());
-
+    cout<<"After Sorted --> ";
     for(int i : n){
         cout<<i<<" ";
     }

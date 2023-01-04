@@ -7,6 +7,7 @@ int main(){
     queue<string> q;
 
     q.push("Ankur");
+    q.push("Kanika");
     q.push("Akshat");
     q.push("Himanshu");
     cout<<"Size -->"<<q.size()<<endl;

@@ -6,6 +6,7 @@ int main(){
     stack<string> s;
 
     s.push("Ankur");
+    s.push("Kanika");
     s.push("Akshat");
     s.push("Kartik");
     s.push("Himanshu");

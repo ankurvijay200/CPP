@@ -1,7 +1,13 @@
 #include<iostream>
+
 using namespace std;
 
 int main(){
-    int a = 3^4;
-    cout<<a;
+    int x = 5;
+    int y = 6;
+
+    if((y = 1) == x)
+        cout<<y;
+    else
+        cout<<y+1;
 }

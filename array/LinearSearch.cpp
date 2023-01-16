@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 bool search(int array[], int n , int element){

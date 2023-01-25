@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 int pairSum(int arr[], int size, int sum){

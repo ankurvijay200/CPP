@@ -1,7 +1,5 @@
 #include<iostream>
-
 using namespace std;
-
 int main(){
     int n;
     cin>>n;
@@ -15,11 +13,8 @@ int main(){
         num = num / 10;
     }
     if (rev ==  n)
-    {
         cout<<"Palindrome";
-    }
-    else{
+    else
         cout<<"Not Palindrome";
-    }
     return 0;
 }

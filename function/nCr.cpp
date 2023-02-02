@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 int factorial(int n){
@@ -21,7 +20,6 @@ int nCr(int n , int r){
 int main(){
     int n,r;
     cin>>n>>r;
-
     cout<<nCr(n,r);
     return 0;
 }

@@ -1,6 +1,6 @@
 #include<iostream>
-using namespace std;
 
+using namespace std;
 int findDuplicate(int arr[], int size){
     int ans=0;
     
